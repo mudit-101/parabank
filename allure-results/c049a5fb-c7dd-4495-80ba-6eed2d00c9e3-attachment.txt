@@ -1,0 +1,3 @@
+Customer ID: 12656
+<?xml version="1.0" encoding="UTF-8"?><accounts><account><id>13677</id><customerId>12656</customerId><type>CHECKING</type><balance>515.50</balance></account></accounts>
+<?xml version="1.0" encoding="UTF-8"?><accounts><account><id>13677</id><customerId>12656</customerId><type>CHECKING</type><balance>515.50</balance></account></accounts>

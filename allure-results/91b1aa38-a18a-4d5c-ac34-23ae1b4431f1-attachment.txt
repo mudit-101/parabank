@@ -1,0 +1,14 @@
+From Options: 0
+To Options: 0
+From Account: 13344
+To Account: 13344
+Transferred Amount: 100
+
+		Transfer Complete!
+		
+			 has been transferred from account # to account #.
+		
+		
+			See Account Activity for more details.
+		
+	

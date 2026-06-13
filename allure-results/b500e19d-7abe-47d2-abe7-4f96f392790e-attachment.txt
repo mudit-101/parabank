@@ -1,0 +1,6 @@
+Balance Before: -3868.90
+From Account: 13344
+To Account: 12345
+Transferred Amount: 100
+Transfer completed successfully
+Balance After: -3968.90

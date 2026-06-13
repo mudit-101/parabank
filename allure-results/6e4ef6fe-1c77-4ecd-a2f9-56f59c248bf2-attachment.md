@@ -1,0 +1,58 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: e2e\CreateAccAndValidate.spec.ts >> TS-03 Create Account and Validate API
+- Location: tests\e2e\CreateAccAndValidate.spec.ts:8:5
+
+# Error details
+
+```
+Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByRole('link', { name: 'Open New Account' })
+
+```
+
+# Test source
+
+```ts
+  1  | import { Page, expect } from '@playwright/test';
+  2  | 
+  3  | export class OpenAccountPage {
+  4  | 
+  5  |     constructor(private page: Page) {}
+  6  | 
+  7  |     async openNewAccountPage() {
+  8  | 
+> 9  |         await this.page.getByRole('link', {name: 'Open New Account'}).click();
+     |                                                                       ^ Error: locator.click: Target page, context or browser has been closed
+  10 |     }
+  11 | 
+  12 |     async selectSavingsAccount() {
+  13 | 
+  14 |         await this.page.selectOption('#type','0');
+  15 |     }
+  16 | 
+  17 |     async clickOpenNewAccount() {
+  18 | 
+  19 |         await this.page.locator( 'input[value="Open New Account"]').click();
+  20 |     }
+  21 | 
+  22 |     async verifyAccountCreated() {
+  23 | 
+  24 |         await this.page.waitForLoadState('networkidle');
+  25 | 
+  26 |         console.log('Account creation flow completed successfully');
+  27 | 
+  28 |         await this.page.screenshot({
+  29 |             path: 'screenshots/account-created.png',
+  30 |             fullPage: true
+  31 |         });
+  32 |     }
+  33 | }
+```

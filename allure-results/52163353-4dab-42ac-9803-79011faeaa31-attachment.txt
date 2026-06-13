@@ -1,0 +1,4 @@
+Account creation flow completed successfully
+Customer ID: 12656
+Total Accounts: 1
+Account creation validated successfully

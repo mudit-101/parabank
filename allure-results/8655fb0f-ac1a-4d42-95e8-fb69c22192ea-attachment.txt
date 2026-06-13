@@ -1,0 +1,2 @@
+Customer ID: 13322
+Response Time : 305

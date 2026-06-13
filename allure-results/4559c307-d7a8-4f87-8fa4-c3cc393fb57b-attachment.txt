@@ -1,0 +1,4 @@
+From Account: 19671
+To Account: 19782
+Transferred Amount: 100
+Transfer completed successfully

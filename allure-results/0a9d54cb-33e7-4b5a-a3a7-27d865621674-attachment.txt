@@ -1,0 +1,5 @@
+Available Accounts: [ '13344', '13788' ]
+From Account: 13344
+To Account: 13788
+Transferred Amount: 100
+Transfer completed successfully

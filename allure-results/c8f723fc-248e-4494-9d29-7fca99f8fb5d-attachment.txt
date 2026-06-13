@@ -1,0 +1,3 @@
+Customer ID: 13322
+<?xml version="1.0" encoding="UTF-8"?><accounts><account><id>14898</id><customerId>13322</customerId><type>CHECKING</type><balance>315.50</balance></account><account><id>19449</id><customerId>13322</customerId><type>CHECKING</type><balance>200.00</balance></account></accounts>
+<?xml version="1.0" encoding="UTF-8"?><accounts><account><id>14898</id><customerId>13322</customerId><type>CHECKING</type><balance>315.50</balance></account><account><id>19449</id><customerId>13322</customerId><type>CHECKING</type><balance>200.00</balance></account></accounts>

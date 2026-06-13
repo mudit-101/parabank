@@ -1,0 +1,12 @@
+Before Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>SAVINGS</type><balance>1131.10</balance></account>
+From Options: 12
+To Options: 12
+From Account: 13344
+To Account: 54321
+Transferred Amount: 100
+Transfer Complete!
+
+$100.00 has been transferred from account #13344 to account #54321.
+
+See Account Activity for more details.
+After Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>SAVINGS</type><balance>931.10</balance></account>

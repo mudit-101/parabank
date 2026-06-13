@@ -1,0 +1,4 @@
+From Account: 14010
+To Account: 14010
+Transferred Amount: 100
+Transfer completed successfully

@@ -1,0 +1,18 @@
+Fetching balance before transfer
+Before Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>SAVINGS</type><balance>1231.10</balance></account>
+From Options: 0
+To Options: 0
+From Account: 13344
+To Account: 12345
+Transferred Amount: 100
+
+		Transfer Complete!
+		
+			 has been transferred from account # to account #.
+		
+		
+			See Account Activity for more details.
+		
+	
+Fetching balance after transfer
+After Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>SAVINGS</type><balance>1131.10</balance></account>
