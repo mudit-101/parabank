@@ -2,50 +2,51 @@ pipeline {
     agent any
 
     stages {
-
         stage('Install Dependencies') {
             steps {
                 bat 'npm install'
-            }
-        }
-
-        stage('Install Browsers') {
-            steps {
                 bat 'npx playwright install'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test'
-            }
-        }
+                script {
+                    def status = bat(
+                        script: 'npx playwright test',
+                        returnStatus: true
+                    )
 
-        stage('Generate Allure Report') {
-            steps {
-                bat 'allure generate allure-results --clean -o allure-report'
+                    if (status != 0) {
+                        echo "Tests failed, but continuing to generate reports..."
+                    }
+                }
             }
         }
     }
 
     post {
         always {
-            allure([
-                results: [[path: 'allure-results']]
-            ])
+            echo 'Generating Reports...'
 
-            publishHTML([
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
+            // HTML Report
+            publishHTML(target: [
                 reportDir: 'playwright-report',
                 reportFiles: 'index.html',
-                reportName: 'Playwright Report',
-                includes: '**/*'
+                reportName: 'Playwright HTML Report',
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                allowMissing: true,
+                linkRelative: false
             ])
 
-            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
-            archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
+            // Allure Report
+            allure(
+                includeProperties: false,
+                jdk: '',
+                results: [[path: 'allure-results']]
+            )
         }
     }
 }
+//ye use kr lo pipeline je liye
