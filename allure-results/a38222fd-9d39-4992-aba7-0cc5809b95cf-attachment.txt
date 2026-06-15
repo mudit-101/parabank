@@ -1,2 +1,0 @@
-Customer ID: 12878
-Response Time : 1228

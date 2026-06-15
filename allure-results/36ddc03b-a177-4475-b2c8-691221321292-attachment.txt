@@ -1,4 +1,0 @@
-From Account: 13677
-To Account: 13677
-Transferred Amount: 100
-Transfer completed successfully

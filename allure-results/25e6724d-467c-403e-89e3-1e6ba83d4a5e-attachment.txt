@@ -1,4 +1,0 @@
-From Account: 32214
-To Account: 32214
-Transferred Amount: 100
-Transfer completed successfully

@@ -1,8 +1,0 @@
-From Account: 13344
-To Account: 12345
-Transferred Amount: 100
-Transfer Complete!
-
-$100.00 has been transferred from account #13344 to account #12345.
-
-See Account Activity for more details.

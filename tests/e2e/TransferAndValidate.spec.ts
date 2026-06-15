@@ -22,7 +22,7 @@ test('scen-7 and scen-8 validate transfer money', async ({ page, request }) => {
 
     const beforeTransfer =await getAccountDetails(request,fromAccount);
     console.log('Before Transfer:',beforeTransfer);
-    await transferFundsPage.transferFunds('100',fromAccount,toAccount);
+    await transferFundsPage.transferFunds('',fromAccount,toAccount);
     await transferFundsPage.verifyTransferCompleted();
     await page.waitForTimeout(3000);
     console.log('Fetching balance after transfer');
@@ -38,5 +38,5 @@ test('scen-7 and scen-8 validate transfer money', async ({ page, request }) => {
     } else {
         console.log('Balance did not change');
     }
-    await page.screenshot({path: 'screenshots/FR06_FR07.png'});
+    await page.screenshot({path: 'screenshots/FR07_FR08.png'});
 });

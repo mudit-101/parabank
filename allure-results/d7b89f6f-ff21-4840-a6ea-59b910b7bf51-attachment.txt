@@ -1,0 +1,3 @@
+Account creation flow completed successfully
+Customer ID: 12212
+Account creation validated successfully

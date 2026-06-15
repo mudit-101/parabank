@@ -1,4 +1,0 @@
-From Account: 14121
-To Account: 14121
-Transferred Amount: 100
-Transfer completed successfully

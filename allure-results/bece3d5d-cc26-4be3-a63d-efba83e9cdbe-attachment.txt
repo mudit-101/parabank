@@ -1,4 +1,0 @@
-From Account: 12345
-To Account: 12456
-Transferred Amount: 100
-Transfer completed successfully

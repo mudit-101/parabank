@@ -1,0 +1,20 @@
+Available Accounts: [
+  '13344', '15120', '15231',
+  '15897', '16674', '17562',
+  '19116', '20226', '20337',
+  '21003', '21114', '21225',
+  '21336', '21447', '21780',
+  '22557', '22779', '23001',
+  '23445', '24333', '27219',
+  '28662'
+]
+Validating Account: 13344
+Fetching balance before transfer
+Before Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>CHECKING</type><balance>2022.93</balance></account>
+From Account: 13344
+To Account: 15120
+Transferred Amount: 100
+Transfer completed successfully
+Fetching balance after transfer
+After Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>CHECKING</type><balance>1822.93</balance></account>
+Balance updated successfully

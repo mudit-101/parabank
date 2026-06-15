@@ -1,5 +1,0 @@
-Available Accounts: [ '22002', '25776', '26775' ]
-From Account: 22002
-To Account: 25776
-Transferred Amount: 100
-Transfer completed successfully

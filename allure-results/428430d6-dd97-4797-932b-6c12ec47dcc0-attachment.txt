@@ -1,6 +1,0 @@
-Balance Before: 1231.10
-From Account: 19671
-To Account: 19782
-Transferred Amount: 100
-Transfer completed successfully
-Balance After: 1231.10

@@ -1,6 +1,0 @@
-From Options: [ '14898', '19449' ]
-To Options: [ '14898', '19449' ]
-From Account: 14898
-To Account: 19449
-Transferred Amount: 100
-Transfer completed successfully

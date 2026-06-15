@@ -1,2 +1,0 @@
-Fetching balance before transfer
-Before Transfer: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><account><id>13344</id><customerId>12212</customerId><type>SAVINGS</type><balance>1231.10</balance></account>

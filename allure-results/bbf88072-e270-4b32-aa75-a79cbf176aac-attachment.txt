@@ -1,3 +1,0 @@
-Customer ID: 12434
-<?xml version="1.0" encoding="UTF-8"?><accounts><account><id>13455</id><customerId>12434</customerId><type>CHECKING</type><balance>515.50</balance></account></accounts>
-<?xml version="1.0" encoding="UTF-8"?><accounts><account><id>13455</id><customerId>12434</customerId><type>CHECKING</type><balance>515.50</balance></account></accounts>

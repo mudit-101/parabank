@@ -15,7 +15,7 @@ test('scen-6 transfer money',async ({ page }) => {
         await transferFundsPage.navigateToTransferFundsPage();
         const accounts = await transferFundsPage.getSelectedAccounts();
         await transferFundsPage.transferFunds(
-            '100',
+            '',
             accounts.fromAccount,
             accounts.toAccount
         );

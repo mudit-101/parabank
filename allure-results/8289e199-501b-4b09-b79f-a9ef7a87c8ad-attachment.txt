@@ -1,2 +1,0 @@
-Customer ID: 12656
-Response Time : 305
